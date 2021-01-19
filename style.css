@@ -146,6 +146,7 @@ a:visited {
     
 }
 
+
 .errorBox {
     margin:auto;
     width: 50%;
@@ -180,7 +181,7 @@ html {
     transition-duration: 0.4s;
     margin:50px;
     font-size:9px;
-    background-color: #d6ac39; 
+    background-color: #929292; 
     border: none;
     color: rgb(0, 0, 0);
     padding: 12px 18px;
