@@ -118,7 +118,7 @@
 /* bannière avec la majorité du texte */
 #grid-main {
     font-size: 20px;
-    font-family: 'VT323', monospace;
+    font-family: 'Rubik', sans-serif;
     padding:20px;
     grid-area: grid-main;
     background-color: rgb(172, 172, 172);
