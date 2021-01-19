@@ -49,6 +49,7 @@
       
   /* Contient la photo, le nom et le job */
 #grid-header-wrapper {
+    border-top-left-radius: 8px;
     grid-area: grid-header-wrapper;
     font-family: VT323;
     color: orange;
@@ -82,6 +83,7 @@
 
 /* bannière avec différentes icones de contact */
 #grid-banner {
+    border-top-right-radius: 8px;
     display: flex;
     grid-area: grid-banner;
     background-color: rgb(243, 175, 28);
@@ -130,11 +132,15 @@ a:link {
     color:rgb(224, 153, 0);
     text-decoration: none;
 }
+
+/*
 a:hover {
     color:whitesmoke;
     text-decoration: none;
     
 }
+
+*/
 a:active {
     color:rgb(224, 153, 0);
     text-decoration: none;
@@ -158,9 +164,16 @@ a:visited {
 
 .header1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 50px;   
+}
 
-    
+.article1 { 
+  width: 50%;
+  margin:auto;
+  border-radius: 4px;
+  justify-content: center;
+  padding: 125px;
+  background-color: gray;
 }
 
 .butwhy {
