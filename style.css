@@ -75,6 +75,8 @@ h4 {
     padding-bottom: 250px;
     padding-right: 10px; 
     object-fit:fill;
+    display: inline-block;
+    overflow:hidden;
 *
     
 
@@ -102,10 +104,8 @@ h4 {
 
 #myPic {
     filter:grayscale(100%);
-    width: 100%;
-    display: inline-block;
     object-fit: fill;
-    overflow:hidden;
+
     
 }
 #myPic img{
