@@ -72,9 +72,12 @@ h4 {
     color: orange;
     background-color: rgb(80, 80, 80);
     padding-left: 15px;
-    padding-bottom: 500px;
+    padding-bottom: 250px;
     padding-right: 10px; 
     object-fit:fill;
+    display: inline-block;
+    overflow:hidden;
+*
     
 
 }
@@ -101,9 +104,12 @@ h4 {
 
 #myPic {
     filter:grayscale(100%);
-    width: 100%;
-    display: block;
     object-fit: fill;
+
+    
+}
+#myPic img{
+  width:80%;
 }
 
 
@@ -244,7 +250,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
-    padding-bottom: 50px;
+    
   }
 .blinking-cursor {
     font-weight: 80 ;
