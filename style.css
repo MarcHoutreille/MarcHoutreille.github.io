@@ -32,7 +32,13 @@
     font-size: 18px;
 }
 
+h4 {
+  text-shadow: 2px 2px #8f8f8f;
+}
 
+#w3-orange {
+  box-shadow: 5px 10px #ff0000;
+}
 /* Contient la grille entière */
 #grid-container {
         display: grid;
@@ -178,7 +184,7 @@ a:visited {
   border-radius: 4px;
   justify-content: center;
   padding: 125px;
-  background-color: gray;
+  background-color: rgb(172, 172, 172);;
 }
 
 .butwhy {
