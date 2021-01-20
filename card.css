@@ -19,10 +19,17 @@ body {
 .card {
     width: 550px;
     height: 300px;
-    background-color: #ffffff;
+    background-color: #fff;
     transform-style: preserve-3d;
     position: relative;
-}
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: transform 1s;
+  }
+
+  .card-wrapper:hover .card {
+    transform: rotateY(180deg);
+  }
 
 .card-front,
 .card-back {
