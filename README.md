@@ -3,6 +3,8 @@ Work in progress personnal portfolio
 
 Please visit my beautiful page : https://marchoutreille.github.io/ ! 
 
+In there you can find my 404 page, CV and VCard !
+
 TODO : 
 
 responsive navbar
