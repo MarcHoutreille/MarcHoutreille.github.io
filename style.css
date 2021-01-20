@@ -30,12 +30,22 @@
     padding:22px;
     border-bottom: 3px solid orange;
     font-size: 18px;
+
 }
-/*
+.navbar a:hover{
+  transition:0.3s;
+  text-shadow: 1px 1px 2px black, 0 0 12px rgb(229, 255, 0), 0 0 8px rgb(255, 188, 5);
+}
 h4 {
   text-shadow: 2px 2px #8f8f8f;
 }
-*/
+
+#grid-main h2 {
+  margin-top: 75px;
+  background-color: rgb(252, 201, 106);
+  text-align:center;
+}
+
 #w3-orange {
   box-shadow: 5px 10px #ff0000;
 }
@@ -68,7 +78,17 @@ h4 {
     
 
 }
+#grid-experience h4{
+  font-family: VT323;
+  font-weight: bold;
+  text-shadow: none;
+  font-size: 25px;
+}
 
+#grid-experience p{
+  margin-left: 40px;
+  margin-bottom:10px;
+}
 
 #myName {
     padding-left: 15px;
@@ -79,12 +99,11 @@ h4 {
     padding-left: 15px;
 }
 
-#myPic *{
+#myPic {
     filter:grayscale(100%);
     width: 100%;
     display: block;
     object-fit: fill;
-    
 }
 
 
@@ -226,7 +245,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin-left: 0;
     margin-top: 0;
     padding-bottom: 50px;
-
+  }
 .blinking-cursor {
     font-weight: 80 ;
     font-size: 22px;
