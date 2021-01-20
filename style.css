@@ -225,8 +225,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
-    padding:0;
-}
+    padding-bottom: 50px;
 
 .blinking-cursor {
     font-weight: 80 ;
