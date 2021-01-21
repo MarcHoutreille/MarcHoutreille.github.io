@@ -1,12 +1,18 @@
+@font-face {
+  font-family: Starjout;
+  src: url(fonts/Starjout.ttf);
+}
+
 body {
     width: 100%;
     height: 100%;
     background: #000;
     overflow: hidden;
-    background-image: url("images/bg.jpg")
+    background-image: url("/images/bg.jpg")
     
   }
   .title {
+      font-family: Starjout;
       text-align: center;
   }
   .fade {
@@ -41,9 +47,12 @@ body {
     position: relative;
     top: 99999px;
     transform-origin: 50% 100%;
-    animation: crawl 240s linear;
+    animation: crawl 60s linear;
   }
   
+  .logo{
+    text-align: center;
+  }
   .crawl > .title {
     font-size: 90%;
     text-align: center;
