@@ -1,21 +1,21 @@
 @font-face {
     font-family: bitpap;
-    src: url(BitPap.ttf);
+    src: url(fonts/BitPap.ttf);
   }
 
 @font-face {
     font-family: bitwise;
-    src: url(bitwise.ttf);
+    src: url(fonts/bitwise.ttf);
 }
 
 @font-face {
     font-family: oldschool;
-    src: url(computer_pixel-7.ttf);
+    src: url(fonts/computer_pixel-7.ttf);
 }
 
 @font-face {
     font-family: VT323;
-    src: url(VT323-Regular.ttf);
+    src: url(fonts/VT323-Regular.ttf);
 }
 
 .navbar {
@@ -77,7 +77,7 @@ h4 {
     object-fit:fill;
     display: inline-block;
     overflow:hidden;
-*
+
     
 
 }
@@ -169,14 +169,7 @@ a:link {
     text-decoration: none;
 }
 
-/*
-a:hover {
-    color:whitesmoke;
-    text-decoration: none;
-    
-}
 
-*/
 a:active {
     color:rgb(224, 153, 0);
     text-decoration: none;
@@ -210,6 +203,10 @@ a:visited {
   justify-content: center;
   padding: 125px;
   background-color: rgb(172, 172, 172);;
+}
+
+.article-header {
+  text-align: left;
 }
 
 .butwhy {
