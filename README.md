@@ -9,6 +9,6 @@ TODO :
 
 responsive navbar
 
-tidy files (/images, /fonts)
+tidy files (/images, /fonts) < DONE
 
 polishing progress bars (drop shadow ?)
