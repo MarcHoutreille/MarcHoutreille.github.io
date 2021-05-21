@@ -15,14 +15,9 @@
 </head>
 
 <body>
-    <section class="navbar">
-        <a href="index.html">HOME</a>
-        <a href="404.html">PROJECTS</a>
-        <a href="/my-resume">RESUME</a>
-        <a href="404.html">CONTACT</a>
-        <a href="vcard.html">ABOUT</a>
+    <div id="nav">
 
-    </section>
+    </div>
     <section class="card-wrapper">
         <section class="card">
             <section class="card-front">
@@ -61,3 +56,9 @@
 </body>
 
 </html>
+
+<script>
+    $(function(){
+      $("#nav").load("nav.html");
+    });
+    </script>
